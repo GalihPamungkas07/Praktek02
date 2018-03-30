@@ -9,7 +9,7 @@ package praktek02;
  *
  * @author W7
  */
-public class KeretaApi {
+public class TiketKeretaApi {
     Integer harga_tiket;
     Integer jumlah_tiket;
     

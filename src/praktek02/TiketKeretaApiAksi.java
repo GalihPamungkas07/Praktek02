@@ -12,6 +12,7 @@ package praktek02;
 public class TiketKeretaApiAksi {
     public static void main(String[] args) {
         TiketKeretaApi r1 = new TiketKeretaApi();
-        
+        r1.harga_tiket = 250000;
+        r1.jumlah_tiket = 2;
     }
 }
