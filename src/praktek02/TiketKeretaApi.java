@@ -19,4 +19,9 @@ public class TiketKeretaApi {
     System.out.println("jumlah_tiket :"+jumlah_tiket);
     System.out.println("==================================");
     }
+        Integer hitungPembelian(){
+            Integer total;
+            total=harga_tiket*jumlah_tiket;
+            return total;    
+    }
 }
