@@ -10,5 +10,13 @@ package praktek02;
  * @author W7
  */
 public class KeretaApi {
+    Integer harga_tiket;
+    Integer jumlah_tiket;
     
+    void cetakInfo(){
+    System.out.println("==================================");
+    System.out.println("harga_tiket :"+harga_tiket);
+    System.out.println("jumlah_tiket :"+jumlah_tiket);
+    System.out.println("==================================");
+    }
 }
