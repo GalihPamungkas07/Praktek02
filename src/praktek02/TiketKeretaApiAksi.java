@@ -19,10 +19,13 @@ public class TiketKeretaApiAksi {
         System.out.println("total   =   "+r1.hitungPembelian());
         r1.cetaktotal();
         
+        
         TiketKeretaApi r2 = new TiketKeretaApi();
         r2.cetakInfo();
+        r2.cetaktotal();
         
         TiketKeretaApi r3 = new TiketKeretaApi(100000,2);
         r3.cetakInfo();
+        r3.cetaktotal();
     }
 }
