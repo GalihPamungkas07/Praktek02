@@ -17,6 +17,11 @@ public class TiketKeretaApi {
      harga_tiket=150000;
      jumlah_tiket=2;
     }
+
+    public TiketKeretaApi(Integer harga_tiket, Integer jumlah_tiket) {
+        this.harga_tiket = harga_tiket;
+        this.jumlah_tiket = jumlah_tiket;
+    }
     
     
     
