@@ -14,5 +14,7 @@ public class TiketKeretaApiAksi {
         TiketKeretaApi r1 = new TiketKeretaApi();
         r1.harga_tiket = 250000;
         r1.jumlah_tiket = 2;
+        
+        r1.cetakInfo();
     }
 }
