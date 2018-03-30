@@ -12,6 +12,13 @@ package praktek02;
 public class TiketKeretaApi {
     Integer harga_tiket;
     Integer jumlah_tiket;
+
+    public TiketKeretaApi() {
+     harga_tiket=150000;
+     jumlah_tiket=2;
+    }
+    
+    
     
     void cetakInfo(){
     System.out.println("==================================");
@@ -23,5 +30,8 @@ public class TiketKeretaApi {
             Integer total;
             total=harga_tiket*jumlah_tiket;
             return total;    
+    }
+        void cetaktotal(){
+        System.out.println("Totalnya    = "+hitungPembelian());
     }
 }
