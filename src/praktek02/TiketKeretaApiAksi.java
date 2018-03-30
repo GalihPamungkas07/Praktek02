@@ -17,5 +17,6 @@ public class TiketKeretaApiAksi {
         
         r1.cetakInfo();
         System.out.println("total   =   "+r1.hitungPembelian());
+        r1.cetaktotal();
     }
 }
