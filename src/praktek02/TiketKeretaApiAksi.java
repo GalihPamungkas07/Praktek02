@@ -11,6 +11,7 @@ package praktek02;
  */
 public class TiketKeretaApiAksi {
     public static void main(String[] args) {
+        TiketKeretaApi r1 = new TiketKeretaApi();
         
     }
 }
